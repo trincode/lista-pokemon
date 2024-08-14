@@ -1,0 +1,200 @@
+body {
+    font-family: "Oswald", sans-serif;
+    max-width: 1700px;
+    margin: 0 auto;
+    background-color: #220a29;
+    color: #FFFFFF;
+}
+
+/*JAVASCRIPT*/
+.modo-claro {
+    background-color: #B0C4DE;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    flex-direction: row;
+}
+
+header .logo {
+    width: 40px;
+}
+
+header .logo:hover {
+    transform: scale(1.30);
+    cursor: pointer;
+}
+
+header .imagem-botao {
+    width: 55px;
+}
+
+header .imagem-botao:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+main .cartao-pokemon {
+    background-color: #808080;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2 ease-in-out;
+}
+
+main .cartao-pokemon:hover {
+    background-color: #20B2AA;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+/*JAVASCRIPT*/
+.modo-claro .cartao-pokemon:hover {
+    background-color: #6495ED;
+}
+
+main .cartao-pokemon .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+main .cartao-pokemon .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #333333;
+    border-radius: 7px;
+}
+
+main .gif {
+    width: 90px;
+    height: 90px;
+}
+
+main .tipos {
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.tipo-normal {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #A9A9A9;
+}
+
+.tipo-voador {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #D2B48C;
+}
+
+.tipo-grama {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #3CB371;
+}
+
+.tipo-inseto {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #6B8E23;
+}
+
+.tipo-eletrico {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #DAA520;
+}
+
+.tipo-fogo {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #B22222;
+}
+
+.tipo-agua {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #6495ED;
+}
+
+.tipo-gelo {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #00BFFF;
+}
+
+.tipo-psiquico {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #FF69B4;
+}
+
+.tipo-venenoso {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #BA55D3;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: auto;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
